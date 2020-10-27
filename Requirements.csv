@@ -1,0 +1,101 @@
+Req ID,Req Name,Description,Pre-requisite,Cost,Value,Test Cases,Importance
+101,URL,Unique web address to access the website,0,8,9,3,H
+102,Choose Region Modal,To choose the city inorder to proceed,101,3,2,3,H
+103,Home Page,Contains various...,102,7,8,5,H
+104,Change Region,Enables to change the city,103,4,3,1,M
+105,Search,To perform search ,103,6,7,2,H
+106,Search Results,Displays the search results,105,7,8,1,H
+107,Login Button,Sign in to the system for existing users,103,6,3,4,L
+108,Forgot Password,To enable sign in when user forgets password,107,5,4,0,L
+109,Continue with Facebook,To login with Facebook account,107,7,1,0,L
+110,Continue with Google,To login with Google account,107,7,3,0,L
+111,Continue with mobile number or email id,To login with mobile number or email id,107,5,6,0,M
+112,Sign Up,To enable registration for a new user,107,6,4,3,M
+113,Category,To choose from various category,103,4,3,1,H
+114,Category List, To explore the various choices in each category,112,5,7,1,M
+115,Customer Care,To connect with support center,103,7,2,0,L
+116,Resend Booking Confirmation,To resend confirmation details,103,7,6,0,M
+117,Subscribe to Newsletters,To initiate free subscripton to the Newsletter,103,3,2,0,L
+118,Best language genre movies,Quick view to the best genre movies according to language,103,4,5,0,M
+119,Movies by Genre,To quickly view to the movies by genre,103,5,4,0,M
+120,Popular movies by language,Quick view to the popular movies by language,103,5,4,0,M
+121,Trending Movies Reviews,Displays the popular movie reviews in general,103,6,5,0,M
+122,To do in the region,To view the the things to do in the selected region,103,6,6,0,M
+123,Quick book,To quickly book tickets online,103,8,6,0,M
+124,Archived Collection,To view the archived stuff,103,7,5,0,M
+125,BookMyShow App,Quick links to the android and ios applications,103,5,9,0,H
+126,Help,To get the site related queries cleared,103,2,6,0,M
+127,Select Movie,To select a particular movie,114,6,9,1,H
+128,Movie Details,To view the movie details,127,7,8,2,H
+129,Movie's Trending Stories,To display the trending stories related to the movie,127,7,4,0,M
+130,View Movie Reviews,To view the movie reviews,127,4,8,0,M
+131,Rate Movie ,To enable the user to post ratings,127,6,6,0,M
+132,Share Movie ,To share movie in social media,127,8,5,0,L
+133,Book Ticket,To book tickets for a movie,127,4,9,1,H
+134,Corporate Booking,To request for corporate booking,127,6,8,0,M
+135,Applicable Offers,"Displays applicable offers, if any",127,3,5,0,L
+136,Select Show Time,To select the desired show time,133,4,8,2,H
+137,Terms and Conditions,To perform either 'Accept' or 'Cancel' with Terms,136,2,4,0,M
+138,Number of Seats,Gets the number of seats to proceed with selection,137,5,8,1,H
+139,Select Seats,To select the desired seats based on availabiity,138,5,8,3,H
+140,Prebook Food,Optional pre booking of food to be delivered at the seat,139,7,7,0,M
+141,Review Booking Summary,To review the booking details,139,4,8,1,M
+142,Select Ticket Type,To choose between M-ticket and box office pickup,139,2,8,0,M
+143,Proceed for Payment,To proceed with the payment process,142,1,7,0,H
+144,Share Contact Details,To communicate the booking details for those who aren't logged in,143,5,6,0,M
+145,Apply Promocode,To unlock offers and apply promocodes (if any),143,6,4,0,M
+146,Payment Method,To choose a particular mode of payment,143,5,9,3,M
+147,Payment Timer,Displays the time left to complete the transaction,143,3,8,0,H
+148,Quikpay,To proceed with Quikpay for payment,146,6,7,0,H
+149,Credit/Debit Card,To proceed with credit or debit card payment,146,5,8,2,H
+150,Netbanking,To proceed with Netbanking for payment,146,5,7,4,H
+151,Mobile Wallets,To pay using mobile wallets,146,6,6,4,M
+152,UPI,To pay using UPI,146,4,8,7,H
+153,Gift Vouchers,To proceed for redeeming gift vouchers,146,6,5,2,M
+154,Redeem Points,To redeem points,146,5,3,0,M
+155,Credit Vouchers,To proceed with credit vouchers,146,6,4,1,L
+156,Earn Loyalty Points,To earn Loyalty points,146,2,7,0,M
+157,Payment Initiation,To initiate payment,146,3,6,1,H
+158,Payment Confirmation,Displays a confirmation for the payment,147,5,7,7,H
+159,QR Code,To access the ticket/booking details ,147,6,8,2,H
+160,Update Details,To update booking details,147,6,7,0,M
+161,Resend Confirmation,To resend details,147,7,5,0,L
+162,Cancel Ticket,To cancel booked tickets,147,5,7,0,H
+163,Browse events,Enables to browse through the various events,114,4,3,0,H
+164,Check Event,To select a particular event,114,3,6,0,H
+165,Event Description,To know more about the event,164,5,3,1,H
+166,Event Date,Displays the event's date,164,4,3,1,H
+167,Event Location,Displays the event's location,164,6,4,1,H
+168,Event Base Price,Displays the base price of the event,164,3,3,1,H
+169,View Larger Map,Redirects to G Maps to view larger map,164,6,4,0,L
+170,Event Terms,Displays the terms and conditions of the event,164,3,1,0,L
+171,Share Event,To share a particular event,164,5,3,0,M
+172,Book Event,To book event's ticket,164,4,6,2,H
+173,Bulk Book Event,To bulk book the event's ticket,164,6,6,0,M
+174,Event Ticket Category,To choose the event ticket's category,172,5,7,1,M
+175,Event Ticket Quantity,To choose the event ticket's quantity,174,4,4,1,M
+176,Event Ticket Review,To review the event ticket's details,175,3,4,1,M
+177,Event Ticket Confirmation,To confirm the event's ticket,147,7,5,1,M
+178, Browse Sports,To browse the various sport events,114,4,3,0,H
+179,Check Sport Event,To check a sport event,114,5,7,1,H
+180,Sport Event Description,Description of the sport event,179,3,3,1,L
+181,Sport Venue,Displays the venue of the sport event,179,4,2,0,M
+182,Sport Event Date,Date of the sport event,179,3,2,0,L
+183,Register/Book Sport,To enroll or book a sport,179,4,6,2,H
+184,Sport Ticket details,Review sport ticket details,183,5,5,1,H
+185,Sport Ticket Confirmation,Displays the confirmation of the sport ticket,147,5,5,1,H
+186,Get Personalized Updates,Enables updates which are personalized to the user,103,6,8,0,M
+187,Change Language,Changes the language of the website,103,4,7,0,H
+188,Gift Cards,To explore Gift cards in general,103,5,6,2,H
+189,E- Gift Cards,To view E-Gift Cards available,188,4,5,3,M
+190,E-Card category,Choose the category of the e-gift card,189,3,7,1,H
+191,Physical Gift Cards,To know about the physical Gift Cards available,188,4,6,0,M
+192,Offers,To know about the available & applicable offers in general,188,6,9,1,H
+193,Filter Offers,To filter the offers,192,5,5,2,M
+194,Corporate ,Information on corporate/bulk discount vouchers,103,7,8,1,H
+195,Corporate Discount Vouchers,Bulk Discount Vouchers for Corporate,194,8,8,4,M
+196,Brand Promotion,Corporate Brand Promotion,194,6,4,2,H
+197,Bulk SMS Communication,Corporate feature enabling communication via SMS to the masses,194,7,7,1,L
+198,Corporate Gifting,Customizable Corporate Gifting schemes ,194,4,8,3,M
+199,Partner with BookMyShow,Partner with BookMyShow Corporate Suite,194,4,5,2,H
+200,Logout,To logout from the current session,103,5,4,5,H
