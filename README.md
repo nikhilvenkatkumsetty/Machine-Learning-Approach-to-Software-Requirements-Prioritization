@@ -1,5 +1,5 @@
 # Machine-Learning-Approach-to-software-requirements-Prioritization
-Using Genetic Algorithm to prioritize the software requirements of a project
+Using Genetic Algorithm and Particle- swarm optimization to prioritize the software requirements of a project
 ## Description:
 Requirement analysts possess relevant knowledge about the
 relative importance of requirements. We use an Interactive
