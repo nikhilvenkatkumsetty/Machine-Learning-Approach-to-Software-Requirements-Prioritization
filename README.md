@@ -24,3 +24,20 @@ conda install -c conda-forge matplotlib
 pip3 install python3-numpy
 conda install -c conda-forge numpy
 ```
+- pandas 2.0.0
+```
+pip install pandas2
+conda install -c conda-forge pandas
+```
+- times 0.7
+```
+pip install times
+```
+## steps to run the project-
+download teh zip file and extract it in the desired folder</br>
+or</br>
+navigate to the folder you want to install and open command prompt or terminal and paste the following command:</br>
+```
+git clone https://github.com/nikhilvenkatkumsetty/Machine-Learning-Approach-to-Software-Requirements-Prioritization.git
+```
+if you don't have git and would like to install click [here](https://git-scm.com/downloads)
