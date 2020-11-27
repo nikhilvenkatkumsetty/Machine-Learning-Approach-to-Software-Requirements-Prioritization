@@ -40,5 +40,5 @@ navigate to the folder you want to install and open command prompt or terminal a
 ```
 git clone https://github.com/nikhilvenkatkumsetty/Machine-Learning-Approach-to-Software-Requirements-Prioritization.git
 ```
-if you don't have git and would like to install click [here](https://git-scm.com/downloads)
+if you don't have git and would like to install click [here](https://git-scm.com/downloads)</br>
 now run the SE1.ipynb and PSO.ipynb using jupyter notebook
