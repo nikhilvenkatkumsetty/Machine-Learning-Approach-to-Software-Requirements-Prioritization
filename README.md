@@ -6,8 +6,7 @@ complies with the existing priorities, satisfies the technical constraints and t
 ## Hardware Requirements
 system with i3 processor, 4GB RAM, 200MB of disk space
 ## Software Requirements
-installing python 3.9 from here
-[GitHub](http://github.com)
+install [python 3.9](https://www.python.org/downloads/)</br>
 Jupyter Notebook or Anaconda Navigator 1.10.0
 ```
 pip install notebook
